@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Crush Table</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/text.css" />
+    <link rel="stylesheet" href="css/960.css" />
+        <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="container_12">
+      <h1>CRUSH TABLE</h1>
+      <div class="grid_12">
+        <p>
+          <form class="" action="index.html" method="post">
+            <input type="text" id="crushname" name="task" value="" placeholder="Nome">
+            <br />
+            <input type="text" id="crushnumber" name="task" value="" placeholder="Telefone Celular">
+            <br />
+            <button type="button" id="addcrush">Adicionar Crush</button>
+          </form>
+        </p>
+      </div>
+      <div class="clear"></div>
+      <div class="grid_12 tasklistheader">
+        <h2>Tarefas</h2>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="container_12 tasklist" id="crushlist">
+      <p>Você não possui nenhum crush</p>
+    </div>
+    <script type="text/javascript" src="model/crush.js"></script>
+    <script type="text/javascript" src="model/crushCollection.js"></script>
+    <script type="text/javascript" src="controller/crushController.js"></script>
+    <script type="text/javascript" src="view/crushView.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
